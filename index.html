@@ -74,52 +74,52 @@
 	<body>
 		<!-- Sidebar with image -->
 		<div class="container">
-			<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width: 40%">
+			<nav class="sidebar w3-hide-medium w3-hide-small" style="width: 40%">
 				<div class="bgimg"></div>
 			</nav>
 
 			<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
-			<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display: none; padding-top: 150px; right: 0; z-index: 2" id="mySidebar">
-				<a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding: 0 12px">
+			<nav class="sidebar hover-black w3-animate-right w3-xxlarge" style="display: none; padding-top: 150px; right: 0; z-index: 2" id="mySidebar">
+				<a href="javascript:void(0)" onclick="closeNav()" class="button w3-xxxlarge w3-display-topright" style="padding: 0 12px">
 					<i class="fa fa-remove"></i>
 				</a>
-				<div class="w3-bar-block w3-center">
-					<a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
-					<a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
-					<a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
-					<a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+				<div class="bar-block w3-center">
+					<a href="#" class="bar-item button w3-text-grey" onclick="closeNav()">Home</a>
+					<a href="#portfolio" class="bar-item button w3-text-grey" onclick="closeNav()">Portfolio</a>
+					<a href="#about" class="bar-item button w3-text-grey" onclick="closeNav()">About</a>
+					<a href="#contact" class="bar-item button w3-text-grey" onclick="closeNav()">Contact</a>
 				</div>
 			</nav>
 
 			<!-- Page Content -->
-			<div class="w3-main w3-padding-large" style="margin-left: 40%">
-				<div class="main-nav w3-bar-block flex uppercase pb-20" style="padding-inline: 2rem; justify-content: space-between">
-					<a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Home</a>
-					<a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Portfolio</a>
-					<a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
-					<a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+			<div class="main w3-padding-large" style="margin-left: 40%">
+				<div class="main-nav bar-block flex align-center justify-center uppercase pb-20" style="padding-inline: 2rem; justify-content: space-between">
+					<a href="#" class="bar-item button w3-text-grey">Home</a>
+					<a href="#portfolio" class="bar-item button w3-text-grey">Portfolio</a>
+					<a href="#about" class="bar-item button w3-text-grey">About</a>
+					<a href="#contact" class="bar-item button w3-text-grey">Contact</a>
 				</div>
 				<!-- Menu icon to open sidebar -->
-				<span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width: auto; right: 0; padding-right: 2rem" onclick="openNav()"><i class="fa fa-bars"></i></span>
+				<span class="button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width: auto; right: 0; padding-right: 2rem" onclick="openNav()"><i class="fa fa-bars"></i></span>
 
 				<!-- Header -->
 				<header class="w3-container w3-center slide-in-top" style="padding: 128px 16px" id="home">
 					<h1 class="w3-jumbo uppercase"><b class="text-animate" style="position: relative; padding-inline: 1rem">Shawn Kelly</b></h1>
 					<p>Web Developer</p>
-					<img src="img/shawnbigbrownorig.jpeg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display: block; width: 60%; margin: auto" />
-					<img src="img/shawnbigbrownorig.jpeg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333" />
-					<button class="button w3-light-grey w3-padding-large w3-margin-top">
+					<img src="img/shawnbigbrownorig.jpeg" class="image w3-hide-large w3-hide-small w3-round" style="display: block; width: 60%; margin: auto" />
+					<img src="img/shawnbigbrownorig.jpeg" class="image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333" />
+					<button class="header-button w3-light-grey w3-padding-large w3-margin-top">
 						<a href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:65f7744c-1b46-35a6-ad48-62ba411abb5c" target="_blank"><i class="fa fa-download"></i> Download Resume</a>
 					</button>
 				</header>
 
 				<!-- Portfolio Section -->
-				<div class="w3-padding-32 w3-content uppercase flow" id="portfolio" style="padding-inline: 2rem">
+				<div class="w3-padding-32 content uppercase flow" id="portfolio" style="padding-inline: 2rem">
 					<h2 class="text-center">About</h2>
 					<hr class="w3-opacity" />
 					<p>Results-driven web developer with hands-on experience and a strong foundation in web development principles. Seeking to leverage my web development internship and professional experience to contribute to the development of robust web-client user interfaces. Committed to delivering clean, accessible, and launch-ready code while staying updated with industry trends and technologies. Looking for opportunities to collaborate with cross-functional teams and make a positive impact on UI deliverables.</p>
 					<h3 class="w3-padding-16 text-center">My Skills</h3>
-					<div class="flex text-center align-center justify-between">
+					<div class="skills | flex text-center align-center justify-between">
 						<div class="flex-column align-center">
 							<p class="w3-wide">html</p>
 							<img src="img/logos/html.png" alt="" />
@@ -132,12 +132,12 @@
 							<p class="w3-wide">Javascript</p>
 							<img src="img/logos/javascript.png" alt="" />
 						</div>
-						<div class="w3-light-grey">
+						<div class="flex-column align-center">
 							<p class="w3-wide">Sass</p>
 							<img src="img/logos/sass.png" alt="" />
 						</div>
 					</div>
-					<div class="flex align-center justify-between">
+					<div class="skills | flex align-center justify-between">
 						<div class="flex-column align-center">
 							<p class="w3-wide">WordPress</p>
 							<img src="img/logos/wordpress.png" alt="" />
@@ -235,7 +235,7 @@
 					<!-- End Portfolio Section -->
 
 					<!-- Contact Section -->
-					<div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom: 64px; padding-inline: 2rem">
+					<div class="w3-padding-32 content w3-text-grey" id="contact" style="margin-bottom: 64px; padding-inline: 2rem">
 						<h2>Contact Me</h2>
 						<hr class="w3-opacity" />
 
@@ -249,7 +249,7 @@
 					<!-- End About Section -->
 
 					<!-- Footer -->
-					<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-xlarge" style="margin: -24px; padding-inline: 2rem">
+					<footer class="w3-container w3-padding-64 w3-light-grey flex align-center justify-center w3-xlarge" style="margin: -24px; padding-inline: 2rem">
 						<!-- <a href="#" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a> -->
 						<a href="https://github.com/skelly1980?tab=repositories" target="_blank"><img src="img/socials/git.png" alt="" /></a>
 						<a href="https://www.instagram.com/shawn.kelly_codes/" target="_blank"><img src="img/socials/instagram.png" alt="" /></a>
